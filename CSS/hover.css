@@ -1,0 +1,230 @@
+/* the head  */
+.head .continer .links > ul > li > .theone:hover:after {
+  content: "";
+  width: 100%;
+  background-color: #e9a943;
+}
+
+.head .continer .links ul > li > a:hover::after {
+  width: 100%;
+  background-color: #e9a943;
+}
+
+.head .continer .links ul li .blog li:hover {
+  padding-right: 40px;
+  border-bottom: 2px solid wheat;
+  border-radius: 10px;
+}
+
+.head .continer .links ul .blhover:hover .blog {
+  background-color: rgb(124, 80, 21);
+  display: block;
+  position: absolute;
+  right: -40px;
+}
+/* end the head */
+/* start the landling */
+.landling .face .ipt:hover {
+  opacity: 0.8;
+}
+
+/* end the .landling */
+
+/* start part services */
+
+.services .services-content .server .srv:hover {
+  box-shadow: 0 0 13px 4px var(--col);
+  border-radius: 15px;
+}
+.services .services-content .server .srv:hover:before {
+  visibility: visible;
+  transform-origin: left center;
+
+  transform: rotatey(0deg);
+}
+.services .services-content .server .srv:hover i {
+  animation-name: ico;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes ico {
+  0% {
+    position: relative;
+    bottom: 0px;
+  }
+  50% {
+    position: relative;
+    bottom: 25px;
+  }
+
+  100% {
+    position: relative;
+    bottom: 0px;
+  }
+}
+
+/* end part servises */
+
+/* start part futer */
+.futer .futer-content .fet .image:hover::after {
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  box-shadow: 0 0 15px 7px black;
+}
+
+.futer .futer-content .fet .image:hover .fa h3 {
+  color: var(--gold);
+
+  font-size: 10px;
+}
+.futer .futer-content .fet .image:hover .fa {
+  visibility: visible;
+  color: wheat;
+}
+
+/* end part futer */
+
+/* start part portoflio */
+.portfolio .portfolio-content .port .prt:hover .fa-solid {
+  position: relative;
+  top: -45px;
+}
+
+.portfolio .portfolio-content .port .prt:hover::after {
+  background-color: wheat;
+  height: 100%;
+  visibility: visible;
+}
+
+/* end part portoflio */
+
+/* start us  */
+
+.us .us-content .text .txt p:hover i {
+  position: relative;
+  left: 80%;
+}
+.us .us-content .text .txt .p1:hover {
+  margin-left: 20px;
+}
+.us .us-content .image:hover {
+  transform: rotateY(-180deg);
+}
+.us .radio:hover {
+  background-color: var(--col);
+}
+
+/* end us */
+
+/* start part price  */
+.price .host-content .host:hover:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  transform: rotateX(0deg);
+  z-index: -1;
+  background-color: wheat;
+}
+
+.price .host-content .host > .ipt:hover {
+  background-color: #855a19;
+  color: white;
+}
+
+/* end part price */
+
+/* start part team  */
+
+.team .team-content .tm:hover .image .icon i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: var(--col);
+  font-size: 20px;
+  color: wheat;
+  visibility: hidden;
+  margin-bottom: 7px;
+  transition: 2s;
+
+  transition: 2s;
+  visibility: visible;
+}
+.team .team-content .tm:hover .image .icon i:hover {
+
+background-color: wheat;
+color: var(--col);
+
+
+}
+
+.team .team-content .tm:hover {
+
+  color: white;
+  transform: rotateY(360deg);
+}
+.team .team-content .tm:hover .image img {
+  filter: brightness(0.4);
+
+}
+.team .team-content .tm:hover::after {
+  content: "";
+
+  transform: rotateX(0deg);
+}
+.team .team-content .tm:hover h3 {
+  color: white;
+  z-index: 5;
+}
+.team .team-content .tm:hover p {
+  color: white;
+}
+
+/* end part team  */
+
+/* start part recent */
+
+.recent .recent-content .re:hover .txt i {
+  animation-name: icm;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes icm {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 10%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+/* end part recent  */
+
+/* start part get  */
+
+.get form input:hover {
+  border-color: #55380c;
+}
+.get form .but:hover {
+  background-color: #55380c;
+  color: white;
+}
+
+/* end part get  */
+/* part the :end */
+
+.the-end .end-content i:hover {
+  background-color: wheat;
+  color: #55380c;
+}
+.the-end:hover h1 {
+  margin-left: 70%;
+}
